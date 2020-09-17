@@ -5,10 +5,12 @@ void check_temp(double temp)
 {
     if (temp > 25)
         cout << "hot" << endl;
-    else if (temp > 10 && temp <= 25) {
+    else if (temp > 10 && temp <= 25)
+    {
         cout << "warm" << endl;
     }
-    else {
+    else
+    {
         cout << "cold" << endl;
     }
 }
@@ -19,13 +21,10 @@ void third_task()
     cout << "Sisesta temperatuur: " << endl;
     cin >> temp;
     check_temp(temp);
-
 }
-
-
 
 int main()
 {
     third_task();
-    return(0);
+    return (0);
 }

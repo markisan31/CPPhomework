@@ -2,9 +2,7 @@
 #include <iostream>
 #include <math.h>
 
-
 using namespace std;
-
 
 double circle_area(int radius)
 {
@@ -16,10 +14,12 @@ double circle_perimetr(int radius)
     return 2 * M_PI * radius;
 }
 
-double square_perimeter(int radius) {
+double square_perimeter(int radius)
+{
     return 2 * radius * 4;
 }
-double square_area(int radius) {
+double square_area(int radius)
+{
     return pow(radius * 2, 2);
 }
 void first_task()
@@ -39,11 +39,10 @@ void first_task()
         cout << "Circle are: " << circle_area(radius) << ", Circle perimetr: " << circle_perimetr(radius) << endl;
         cout << "Square are: " << square_area(radius) << ", Square perimetr: " << square_perimeter(radius) << endl;
     }
-
 }
 
 int main()
 {
     first_task();
-    return(0);
+    return (0);
 }

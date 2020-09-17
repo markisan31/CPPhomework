@@ -3,8 +3,7 @@ using namespace std;
 
 void change_salaries(double salaries[], int arrayLength)
 {
-    
-    
+
     for (unsigned int i = 0; i < arrayLength; i++)
     {
         if (salaries[i] < 500)
@@ -20,7 +19,6 @@ void change_salaries(double salaries[], int arrayLength)
     }
 }
 
-
 void second_task()
 {
     cout << "Type 5 different salaries" << endl;
@@ -33,14 +31,12 @@ void second_task()
         cin >> salaries[i];
         cout << endl;
     }
-    
+
     change_salaries(salaries, salaries_length);
 }
-
 
 int main()
 {
     second_task();
-    return(0);
+    return (0);
 }
-
