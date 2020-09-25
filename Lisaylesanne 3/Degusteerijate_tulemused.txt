@@ -1,0 +1,13 @@
+Degusteerijate hinned on j2rgmised: [1] [0] [5] [6] [5] [6] [5] 
+Degusteerijate keskmine hinne: 4
+
+Degusteerijate erinevus keskmisest : 
+Degusterrija number 1 erinevus keskhinnest on 3
+Degusterrija number 2 erinevus keskhinnest on 4
+Degusterrija number 3 erinevus keskhinnest on 1
+Degusterrija number 4 erinevus keskhinnest on 2
+Degusterrija number 5 erinevus keskhinnest on 1
+Degusterrija number 6 erinevus keskhinnest on 2
+Degusterrija number 7 erinevus keskhinnest on 1
+
+Degusteerija number 2 hinne erines kqige rohkem: 4
